@@ -1,0 +1,79 @@
+{
+  "formatVersion": 3,
+  "maps": [
+    "map"
+  ],
+  "filtering": "pixelated",
+  "wrapping": "clampToEdge",
+  "pixelsPerUnit": 220,
+  "framesPerSecond": 8,
+  "opacity": 1,
+  "alphaTest": 0.1,
+  "frameOrder": "rows",
+  "grid": {
+    "width": 641,
+    "height": 959
+  },
+  "origin": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "animations": [
+    {
+      "id": "0",
+      "name": "1",
+      "startFrameIndex": 0,
+      "endFrameIndex": 6,
+      "speed": 1
+    },
+    {
+      "id": "1",
+      "name": "2",
+      "startFrameIndex": 7,
+      "endFrameIndex": 9,
+      "speed": 0.5
+    },
+    {
+      "id": "2",
+      "name": "3",
+      "startFrameIndex": 10,
+      "endFrameIndex": 13,
+      "speed": 0.8
+    },
+    {
+      "id": "3",
+      "name": "4",
+      "startFrameIndex": 14,
+      "endFrameIndex": 17,
+      "speed": 0.8
+    },
+    {
+      "id": "4",
+      "name": "5",
+      "startFrameIndex": 18,
+      "endFrameIndex": 20,
+      "speed": 0.4
+    },
+    {
+      "id": "5",
+      "name": "6",
+      "startFrameIndex": 21,
+      "endFrameIndex": 29,
+      "speed": 0.8
+    },
+    {
+      "id": "6",
+      "name": "7",
+      "startFrameIndex": 30,
+      "endFrameIndex": 31,
+      "speed": 0.6
+    }
+  ],
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  }
+}

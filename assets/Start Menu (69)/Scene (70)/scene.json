@@ -1,0 +1,143 @@
+{
+  "formatVersion": 1,
+  "nodes": [
+    {
+      "id": "1",
+      "name": "Camera",
+      "children": [],
+      "components": [
+        {
+          "type": "Camera",
+          "config": {
+            "formatVersion": 1,
+            "mode": "orthographic",
+            "fov": 45,
+            "orthographicScale": 20,
+            "viewport": {
+              "x": 0,
+              "y": 0,
+              "width": 1,
+              "height": 1
+            },
+            "depth": 0,
+            "nearClippingPlane": 0.1,
+            "farClippingPlane": 1000
+          },
+          "id": "0"
+        },
+        {
+          "type": "Behavior",
+          "config": {
+            "behaviorName": "StartMenuBehavior",
+            "propertyValues": {}
+          },
+          "id": "1"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 10
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "2",
+      "name": "Screen",
+      "children": [],
+      "components": [
+        {
+          "type": "SpriteRenderer",
+          "config": {
+            "formatVersion": 1,
+            "spriteAssetId": "71",
+            "animationId": null,
+            "horizontalFlip": false,
+            "verticalFlip": false,
+            "castShadow": false,
+            "receiveShadow": false,
+            "color": "ffffff",
+            "overrideOpacity": false,
+            "opacity": null,
+            "materialType": "basic",
+            "shaderAssetId": null
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -2
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 3.5,
+        "y": 3.5,
+        "z": 3.5
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "3",
+      "name": "Press Start",
+      "children": [],
+      "components": [
+        {
+          "type": "TextRenderer",
+          "config": {
+            "formatVersion": 2,
+            "fontAssetId": "56",
+            "text": "- Press START -",
+            "alignment": "center",
+            "verticalAlignment": "center",
+            "size": null,
+            "color": null,
+            "overrideOpacity": false,
+            "opacity": null
+          },
+          "id": "0"
+        }
+      ],
+      "position": {
+        "x": 0,
+        "y": -8,
+        "z": 0
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    }
+  ]
+}

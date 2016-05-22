@@ -1,0 +1,523 @@
+[
+  {
+    "id": "47",
+    "name": "Intro",
+    "type": null,
+    "children": [
+      {
+        "id": "48",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "49",
+        "name": "Sparklin Labs",
+        "type": "sprite"
+      },
+      {
+        "id": "55",
+        "name": "Background",
+        "type": "sprite"
+      },
+      {
+        "id": "50",
+        "name": "Manager",
+        "type": "script"
+      },
+      {
+        "id": "53",
+        "name": "Sparkles",
+        "type": "sound"
+      },
+      {
+        "id": "56",
+        "name": "Menu Font",
+        "type": "font"
+      }
+    ]
+  },
+  {
+    "id": "69",
+    "name": "Start Menu",
+    "type": null,
+    "children": [
+      {
+        "id": "70",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "116",
+        "name": "Music",
+        "type": "sound"
+      },
+      {
+        "id": "101",
+        "name": "Start Game",
+        "type": "sound"
+      },
+      {
+        "id": "71",
+        "name": "Screen",
+        "type": "sprite"
+      },
+      {
+        "id": "72",
+        "name": "Behavior",
+        "type": "script"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Character Select Menu",
+    "type": null,
+    "children": [
+      {
+        "id": "11",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "17",
+        "name": "Behavior",
+        "type": "script"
+      },
+      {
+        "id": "12",
+        "name": "Font",
+        "type": "font"
+      },
+      {
+        "id": "114",
+        "name": "Music",
+        "type": "sound"
+      },
+      {
+        "id": "102",
+        "name": "Select Player",
+        "type": "sound"
+      },
+      {
+        "id": "103",
+        "name": "Player Chosen",
+        "type": "sound"
+      },
+      {
+        "id": "18",
+        "name": "Select",
+        "type": "sprite"
+      },
+      {
+        "id": "46",
+        "name": "Background",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "60",
+    "name": "Stage Select Menu",
+    "type": null,
+    "children": [
+      {
+        "id": "62",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "63",
+        "name": "Behavior",
+        "type": "script"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "In-Game",
+    "type": null,
+    "children": [
+      {
+        "id": "0",
+        "name": "Scene",
+        "type": "scene"
+      },
+      {
+        "id": "115",
+        "name": "Music",
+        "type": "sound"
+      },
+      {
+        "id": "98",
+        "name": "Fight",
+        "type": "sound"
+      },
+      {
+        "id": "4",
+        "name": "Game",
+        "type": "script"
+      },
+      {
+        "id": "35",
+        "name": "Camera Behavior",
+        "type": "script"
+      },
+      {
+        "id": "2",
+        "name": "Player",
+        "type": null,
+        "children": [
+          {
+            "id": "24",
+            "name": "Prefab",
+            "type": "scene"
+          },
+          {
+            "id": "3",
+            "name": "Behavior",
+            "type": "script"
+          },
+          {
+            "id": "32",
+            "name": "Shadow",
+            "type": "sprite"
+          },
+          {
+            "id": "26",
+            "name": "HUD",
+            "type": null,
+            "children": [
+              {
+                "id": "25",
+                "name": "Prefab",
+                "type": "scene"
+              },
+              {
+                "id": "27",
+                "name": "Health",
+                "type": "sprite"
+              },
+              {
+                "id": "29",
+                "name": "Action",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "104",
+            "name": "SFX",
+            "type": null,
+            "children": [
+              {
+                "id": "110",
+                "name": "Attack",
+                "type": "sound"
+              },
+              {
+                "id": "105",
+                "name": "Taunt",
+                "type": "sound"
+              },
+              {
+                "id": "109",
+                "name": "Block",
+                "type": "sound"
+              },
+              {
+                "id": "107",
+                "name": "Land",
+                "type": "sound"
+              },
+              {
+                "id": "106",
+                "name": "Jump",
+                "type": "sound"
+              },
+              {
+                "id": "108",
+                "name": "Step",
+                "type": "sound"
+              },
+              {
+                "id": "112",
+                "name": "Special",
+                "type": null,
+                "children": [
+                  {
+                    "id": "86",
+                    "name": "Loopi",
+                    "type": "sound"
+                  },
+                  {
+                    "id": "92",
+                    "name": "Eli",
+                    "type": "sound"
+                  },
+                  {
+                    "id": "93",
+                    "name": "King",
+                    "type": "sound"
+                  },
+                  {
+                    "id": "96",
+                    "name": "Blankou",
+                    "type": "sound"
+                  },
+                  {
+                    "id": "97",
+                    "name": "Moosh",
+                    "type": "sound"
+                  },
+                  {
+                    "id": "111",
+                    "name": "Jon",
+                    "type": "sound"
+                  },
+                  {
+                    "id": "100",
+                    "name": "Pixel",
+                    "type": "sound"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "42",
+        "name": "Projectile",
+        "type": null,
+        "children": [
+          {
+            "id": "45",
+            "name": "Prefab",
+            "type": "scene"
+          },
+          {
+            "id": "43",
+            "name": "Behavior",
+            "type": "script"
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "Characters",
+        "type": null,
+        "children": [
+          {
+            "id": "13",
+            "name": "Loopi",
+            "type": null,
+            "children": [
+              {
+                "id": "28",
+                "name": "Sprite",
+                "type": "sprite"
+              },
+              {
+                "id": "39",
+                "name": "Portrait",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "15",
+            "name": "Eli",
+            "type": null,
+            "children": [
+              {
+                "id": "1",
+                "name": "Sprite",
+                "type": "sprite"
+              },
+              {
+                "id": "16",
+                "name": "Portrait",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "36",
+            "name": "Moosh",
+            "type": null,
+            "children": [
+              {
+                "id": "40",
+                "name": "Sprite",
+                "type": "sprite"
+              },
+              {
+                "id": "14",
+                "name": "Portrait",
+                "type": "sprite"
+              },
+              {
+                "id": "41",
+                "name": "Projectile",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "57",
+            "name": "Pixel",
+            "type": null,
+            "children": [
+              {
+                "id": "58",
+                "name": "Sprite",
+                "type": "sprite"
+              },
+              {
+                "id": "59",
+                "name": "Portrait",
+                "type": "sprite"
+              },
+              {
+                "id": "73",
+                "name": "Projectile",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "66",
+            "name": "King",
+            "type": null,
+            "children": [
+              {
+                "id": "67",
+                "name": "Sprite",
+                "type": "sprite"
+              },
+              {
+                "id": "68",
+                "name": "Portrait",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "74",
+            "name": "Jon",
+            "type": null,
+            "children": [
+              {
+                "id": "75",
+                "name": "Sprite",
+                "type": "sprite"
+              },
+              {
+                "id": "81",
+                "name": "Portrait",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "83",
+            "name": "Blankou",
+            "type": null,
+            "children": [
+              {
+                "id": "84",
+                "name": "Sprite",
+                "type": "sprite"
+              },
+              {
+                "id": "85",
+                "name": "Portrait",
+                "type": "sprite"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "21",
+        "name": "Stages",
+        "type": null,
+        "children": [
+          {
+            "id": "64",
+            "name": "Street",
+            "type": null,
+            "children": [
+              {
+                "id": "31",
+                "name": "Background",
+                "type": "sprite"
+              },
+              {
+                "id": "76",
+                "name": "Preview",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "65",
+            "name": "Dojo",
+            "type": null,
+            "children": [
+              {
+                "id": "23",
+                "name": "Background",
+                "type": "sprite"
+              },
+              {
+                "id": "77",
+                "name": "Preview",
+                "type": "sprite"
+              }
+            ]
+          },
+          {
+            "id": "78",
+            "name": "Stands",
+            "type": null,
+            "children": [
+              {
+                "id": "79",
+                "name": "Background",
+                "type": "sprite"
+              },
+              {
+                "id": "80",
+                "name": "Preview",
+                "type": "sprite"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "113",
+        "name": "Public",
+        "type": "sprite"
+      }
+    ]
+  },
+  {
+    "id": "51",
+    "name": "Utils",
+    "type": null,
+    "children": [
+      {
+        "id": "52",
+        "name": "Fade",
+        "type": "script"
+      },
+      {
+        "id": "54",
+        "name": "Fade Sprite",
+        "type": "sprite"
+      }
+    ]
+  }
+]

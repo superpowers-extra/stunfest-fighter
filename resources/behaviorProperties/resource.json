@@ -1,0 +1,60 @@
+{
+  "behaviors": {
+    "PlayerBehavior": {
+      "scriptId": "3",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "position",
+          "type": "Sup.Math.Vector2"
+        },
+        {
+          "name": "health",
+          "type": "number"
+        }
+      ]
+    },
+    "CharacterSelectMenuBehavior": {
+      "scriptId": "17",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "CameraBehavior": {
+      "scriptId": "35",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "ProjectileBehavior": {
+      "scriptId": "43",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "SplashManager": {
+      "scriptId": "50",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "StageSelectMenuBehavior": {
+      "scriptId": "63",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": []
+    },
+    "StartMenuBehavior": {
+      "scriptId": "72",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "timer",
+          "type": "number"
+        }
+      ]
+    }
+  }
+}

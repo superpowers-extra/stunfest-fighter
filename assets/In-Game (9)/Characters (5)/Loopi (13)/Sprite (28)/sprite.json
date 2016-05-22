@@ -1,0 +1,156 @@
+{
+  "formatVersion": 3,
+  "maps": [
+    "map"
+  ],
+  "filtering": "pixelated",
+  "wrapping": "clampToEdge",
+  "pixelsPerUnit": 50,
+  "framesPerSecond": 8,
+  "opacity": null,
+  "alphaTest": 0.1,
+  "frameOrder": "rows",
+  "grid": {
+    "width": 315,
+    "height": 211
+  },
+  "origin": {
+    "x": 0.48,
+    "y": 0.07
+  },
+  "animations": [
+    {
+      "id": "0",
+      "name": "Idle",
+      "startFrameIndex": 0,
+      "endFrameIndex": 2,
+      "speed": 1
+    },
+    {
+      "id": "1",
+      "name": "Walk",
+      "startFrameIndex": 3,
+      "endFrameIndex": 6,
+      "speed": 1
+    },
+    {
+      "id": "2",
+      "name": "Attack",
+      "startFrameIndex": 7,
+      "endFrameIndex": 10,
+      "speed": 1
+    },
+    {
+      "id": "15",
+      "name": "Block",
+      "startFrameIndex": 31,
+      "endFrameIndex": 32,
+      "speed": 0.5
+    },
+    {
+      "id": "3",
+      "name": "Jump",
+      "startFrameIndex": 22,
+      "endFrameIndex": 22,
+      "speed": 1
+    },
+    {
+      "id": "4",
+      "name": "Fall",
+      "startFrameIndex": 22,
+      "endFrameIndex": 22,
+      "speed": 1
+    },
+    {
+      "id": "10",
+      "name": "Attack Jump",
+      "startFrameIndex": 16,
+      "endFrameIndex": 22,
+      "speed": 0.5
+    },
+    {
+      "id": "17",
+      "name": "Attack Special Load",
+      "startFrameIndex": 11,
+      "endFrameIndex": 12,
+      "speed": 0.7
+    },
+    {
+      "id": "18",
+      "name": "Attack Special",
+      "startFrameIndex": 14,
+      "endFrameIndex": 14,
+      "speed": 0.2
+    },
+    {
+      "id": "6",
+      "name": "Crouch Idle",
+      "startFrameIndex": 15,
+      "endFrameIndex": 15,
+      "speed": 1
+    },
+    {
+      "id": "12",
+      "name": "Crouch Walk",
+      "startFrameIndex": 16,
+      "endFrameIndex": 18,
+      "speed": 1
+    },
+    {
+      "id": "9",
+      "name": "Crouch Attack",
+      "startFrameIndex": 19,
+      "endFrameIndex": 21,
+      "speed": 1
+    },
+    {
+      "id": "16",
+      "name": "Crouch Block",
+      "startFrameIndex": 29,
+      "endFrameIndex": 29,
+      "speed": 1
+    },
+    {
+      "id": "5",
+      "name": "Hit",
+      "startFrameIndex": 25,
+      "endFrameIndex": 25,
+      "speed": 1
+    },
+    {
+      "id": "7",
+      "name": "Die",
+      "startFrameIndex": 26,
+      "endFrameIndex": 28,
+      "speed": 1
+    },
+    {
+      "id": "8",
+      "name": "Victory",
+      "startFrameIndex": 35,
+      "endFrameIndex": 37,
+      "speed": 1
+    },
+    {
+      "id": "11",
+      "name": "Menu",
+      "startFrameIndex": 33,
+      "endFrameIndex": 35,
+      "speed": 0.5
+    },
+    {
+      "id": "13",
+      "name": "Taunt",
+      "startFrameIndex": 38,
+      "endFrameIndex": 40,
+      "speed": 0.5
+    }
+  ],
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  }
+}

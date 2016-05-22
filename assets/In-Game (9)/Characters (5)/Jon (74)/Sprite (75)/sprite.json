@@ -1,0 +1,149 @@
+{
+  "formatVersion": 3,
+  "maps": [
+    "map"
+  ],
+  "filtering": "pixelated",
+  "wrapping": "clampToEdge",
+  "pixelsPerUnit": 100,
+  "framesPerSecond": 8,
+  "opacity": null,
+  "alphaTest": 0.1,
+  "frameOrder": "rows",
+  "grid": {
+    "width": 437,
+    "height": 444
+  },
+  "origin": {
+    "x": 0.37,
+    "y": 0.1
+  },
+  "animations": [
+    {
+      "id": "0",
+      "name": "Idle",
+      "startFrameIndex": 0,
+      "endFrameIndex": 2,
+      "speed": 1
+    },
+    {
+      "id": "1",
+      "name": "Walk",
+      "startFrameIndex": 0,
+      "endFrameIndex": 2,
+      "speed": 1
+    },
+    {
+      "id": "2",
+      "name": "Attack",
+      "startFrameIndex": 3,
+      "endFrameIndex": 5,
+      "speed": 1
+    },
+    {
+      "id": "14",
+      "name": "Block",
+      "startFrameIndex": 6,
+      "endFrameIndex": 6,
+      "speed": 1
+    },
+    {
+      "id": "3",
+      "name": "Jump",
+      "startFrameIndex": 26,
+      "endFrameIndex": 26,
+      "speed": 1
+    },
+    {
+      "id": "4",
+      "name": "Fall",
+      "startFrameIndex": 26,
+      "endFrameIndex": 26,
+      "speed": 1
+    },
+    {
+      "id": "10",
+      "name": "Attack Jump",
+      "startFrameIndex": 26,
+      "endFrameIndex": 28,
+      "speed": 1
+    },
+    {
+      "id": "16",
+      "name": "Attack Special",
+      "startFrameIndex": 40,
+      "endFrameIndex": 44,
+      "speed": 1
+    },
+    {
+      "id": "6",
+      "name": "Crouch Idle",
+      "startFrameIndex": 9,
+      "endFrameIndex": 9,
+      "speed": 1
+    },
+    {
+      "id": "12",
+      "name": "Crouch Walk",
+      "startFrameIndex": 9,
+      "endFrameIndex": 12,
+      "speed": 1
+    },
+    {
+      "id": "9",
+      "name": "Crouch Attack",
+      "startFrameIndex": 14,
+      "endFrameIndex": 15,
+      "speed": 1
+    },
+    {
+      "id": "15",
+      "name": "Crouch Block",
+      "startFrameIndex": 25,
+      "endFrameIndex": 25,
+      "speed": 1
+    },
+    {
+      "id": "5",
+      "name": "Hit",
+      "startFrameIndex": 7,
+      "endFrameIndex": 7,
+      "speed": 1
+    },
+    {
+      "id": "7",
+      "name": "Die",
+      "startFrameIndex": 45,
+      "endFrameIndex": 47,
+      "speed": 1
+    },
+    {
+      "id": "8",
+      "name": "Victory",
+      "startFrameIndex": 29,
+      "endFrameIndex": 31,
+      "speed": 1
+    },
+    {
+      "id": "11",
+      "name": "Menu",
+      "startFrameIndex": 38,
+      "endFrameIndex": 40,
+      "speed": 1
+    },
+    {
+      "id": "13",
+      "name": "Taunt",
+      "startFrameIndex": 33,
+      "endFrameIndex": 36,
+      "speed": 0.5
+    }
+  ],
+  "mapSlots": {
+    "map": "map",
+    "light": null,
+    "specular": null,
+    "alpha": null,
+    "normal": null
+  }
+}
